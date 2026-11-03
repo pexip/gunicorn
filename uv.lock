@@ -1,5 +1,5 @@
 version = 1
-revision = 3
+revision = 5
 requires-python = ">=3.10"
 
 [[package]]
@@ -43,11 +43,11 @@ wheels = [
 
 [[package]]
 name = "certifi"
-version = "2026.7.22"
+version = "2026.10.18"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/a3/c2/24167ea9858356b47a87a50d39908bfdb72ceeefe0041586e704e5376b3a/certifi-2026.7.22.tar.gz", hash = "sha256:741e2c3b351ddf169a738da9f2c048608ff7f2c5cc02f1ebc6b118bb090d5d55", size = 138112, upload-time = "2026-07-22T03:35:12.644Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/7e/eb/a2aa1ac3ea30dd3f30ca57f40232138b6b0040719316ecb85daf61167771/certifi-2026.10.18.tar.gz", hash = "sha256:b9995d97b64d0431a5af837d8ca8cd6238104d1f319f04bd93ea43124d6c861e", size = 135227, upload-time = "2026-10-18T16:21:07.655Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/0b/a7/71ac2cff56fec219ed242bb11b8efb69fcc4bec75db06fb7bfe35de520e6/certifi-2026.7.22-py3-none-any.whl", hash = "sha256:62f22742b58a1a33014a2b6b706588a8d7e2a88ae7bd1a6ebe8c992928483775", size = 136983, upload-time = "2026-07-22T03:35:11.276Z" },
+    { url = "https://files.pythonhosted.org/packages/08/ba/95dd616042484f7c83a06974388b37b837732740ee70bc5dc715b5fcd55a/certifi-2026.10.18-py3-none-any.whl", hash = "sha256:73191c47aaa79da394e8fee2dbc2ec827432cab56311122c9e47abf79e390f62", size = 134093, upload-time = "2026-10-18T16:21:06.276Z" },
 ]
 
 [[package]]
@@ -430,7 +430,7 @@ requires-dist = [
     { name = "coverage", marker = "extra == 'testing'" },
     { name = "gevent", marker = "extra == 'gevent'", specifier = ">=24.10.1" },
     { name = "gevent", marker = "extra == 'testing'", specifier = ">=24.10.1" },
-    { name = "gunicorn-h1c", marker = "extra == 'fast'", specifier = ">=0.6.6" },
+    { name = "gunicorn-h1c", marker = "extra == 'fast'", specifier = ">=0.6.9" },
     { name = "h2", marker = "extra == 'http2'", specifier = ">=4.4.1" },
     { name = "h2", marker = "extra == 'testing'", specifier = ">=4.4.1" },
     { name = "httpx", extras = ["http2"], marker = "extra == 'testing'", specifier = ">=0.23.0" },
@@ -448,11 +448,11 @@ provides-extras = ["gevent", "tornado", "gthread", "setproctitle", "http2", "fas
 
 [[package]]
 name = "gunicorn-h1c"
-version = "0.6.6"
+version = "0.6.9"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/0f/99/8350e5fdf234620a68b96ab3cefed8049e4b2f96e360ad64f9c74a96069c/gunicorn_h1c-0.6.6.tar.gz", hash = "sha256:b704a12ee4ba94709ce95121ff063643f70358fda45389b9fd2cb95ab7783c36", size = 51209, upload-time = "2026-08-17T21:28:45.509Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/5a/b2/36997f8a1a25c33bf429441eac7a106c5ba8a25be555fe2ea3fc76d3e8d0/gunicorn_h1c-0.6.9.tar.gz", hash = "sha256:1847ff14fe6354a0808785dbcab25c7fbf5e621a1593bc1456c2fadf018103b1", size = 58281, upload-time = "2026-08-23T14:21:15.023Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/e3/c3/87cfcc2bc6597f568d318ee85497f41725eaedd3e83dd9f9ce7afbcf8cb2/gunicorn_h1c-0.6.6-cp314-cp314-macosx_26_0_arm64.whl", hash = "sha256:43d187f82f32ee43bc6484f1eda253bfa76f826c624e78c6795ba629a2940119", size = 82913, upload-time = "2026-08-17T21:28:44.207Z" },
+    { url = "https://files.pythonhosted.org/packages/64/7b/0712a8057c103026229b9b5f6752fbe63e2941e44d5885c5b2f77f0a9c7d/gunicorn_h1c-0.6.9-cp314-cp314-macosx_26_0_arm64.whl", hash = "sha256:dad8fa09f1e02e9a3739e35c324026f34322dd60f9b9ff16b822c3452273d384", size = 86319, upload-time = "2026-08-23T14:21:13.74Z" },
 ]
 
 [[package]]
